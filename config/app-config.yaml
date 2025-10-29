@@ -1,4 +1,4 @@
-# Production Application Configuration
+# Production configuration (active)
 application:
   name: DevOpsSimulator
   version: 1.0.0
@@ -12,11 +12,13 @@ server:
 logging:
   level: INFO
   format: json
-  
 
-  
 development:
   mock_external_apis: true
   debug_mode: true
   cors_enabled: true
+
+features:
+  auto_scaling: true
+  load_balancer: enabled
 

@@ -1,7 +1,8 @@
 # System Architecture
 
 ## Overview
-DevOps Simulator follows a microservices architecture designed for high availability and scalability. This document covers both production and development configurations.
+DevOps Simulator follows a microservices architecture designed for high availability and scalability.  
+This document covers both production and development configurations.  
 
 ## Components
 
@@ -38,3 +39,49 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 ## Security
 - **Production**: SSL/TLS encryption, strict access controls
 - **Development**: Relaxed security for easier debugging
+
+
+---
+
+##  Experimental Build (Documentation Only – Not Active)
+> The following configuration represents the **experimental architecture** for testing AI/ML-based and multi-cloud features.  
+> This section is **for research and future scalability** — not part of the current production release.
+
+### Overview
+DevOps Simulator (Experimental) follows an **event-driven microservices architecture** with AI/ML integration,  
+designed for multi-cloud deployments and chaos engineering.
+
+### Core Components
+
+#### 1. Application Server (AI-Enhanced)
+- **Technology**: Node.js + Express + TensorFlow.js  
+- **Ports**: 9000 (main), 9001 (metrics), 9002 (AI API)  
+- **Scaling**: AI-powered predictive auto-scaling  
+- **Intelligence**: Real-time ML inference  
+- **Message Queue**: Apache Kafka for event streaming  
+
+#### 2. Distributed Database Layer
+- **Primary**: PostgreSQL 14 cluster (5 nodes)  
+- **Cache**: Redis cluster with ML-based optimization  
+- **Configuration**: Multi-master replication  
+- **Backup**: Continuous backup with geo-redundancy  
+- **AI Features**: Query optimization, index suggestions  
+
+#### 3. AI/ML Pipeline
+- **Frameworks**: TensorFlow, PyTorch, Scikit-learn  
+- **Models**:
+  - Anomaly detection (LSTM)
+  - Load prediction (XGBoost)
+  - Auto-scaling optimizer (Reinforcement Learning)
+- **Training**: Continuous online learning  
+- **Inference**: Real-time predictions (<50ms latency)
+
+#### 4. Multi-Cloud Orchestration
+- **Supported Clouds**: AWS, Azure, GCP, DigitalOcean  
+- **Orchestrator**: Kubernetes with custom CRDs  
+- **Load Balancing**: Global anycast with GeoDNS  
+- **Failover**: Automatic cross-cloud failover  
+
+#### 5. Advanced Monitoring & Observability
+- **Metrics**: Prometheus + Thanos (long-term storage)  
+- **Logs**: ELK Stack + AI log analysis  
