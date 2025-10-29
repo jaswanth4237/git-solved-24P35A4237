@@ -47,3 +47,4 @@ Includes optional experimental AI-powered enhancements.
 export DEPLOY_ENV=production
 ./scripts/deploy.sh
 ## FAQ
+update
