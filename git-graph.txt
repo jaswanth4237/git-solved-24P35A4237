@@ -1,0 +1,34 @@
+* aef5fd2 (HEAD -> main, origin/main) docs: Add changelog
+*   071072b Merge branch 'main' of https://github.com/jaswanth4237/git-solved-24P35A4237
+|\  
+| *   78bd424 Merge pull request #2 from jaswanth4237/another-feature
+| |\  
+| * \   1045d63 Merge pull request #1 from jaswanth4237/feature
+| |\ \  
+| | * | cc5ce0c (origin/feature, feature) feast:Add new feature
+* | | | 7059d84 docs: Add Git journey documentation
+|/ / /  
+* | | 6146936 (tag: v1.1.1, tag: v1.1.0, tag: v1.0.0) Bad commit
+| | | * c1fb5c7 (another-feature) Bad commit
+| | |/  
+| | * 624db4a (origin/another-feature) feat:Add test feature
+| |/  
+|/|   
+* | 62520a6 docs: Update README
+* | dcaecc9 feast:Add new feature
+* | d4eb535 docs: Add FAQ section
+|/  
+* 57efcf5 addedd checkpoint3.png in Images folder
+*   ddd792f Resolve conflict in README.md -unfied production and experimental info
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | 4ddb425 Add checkpoint2.png to Images folder
+* |   daf19e6 merge:Resolve all conflicts between main and dev branches Conflicts resolved in 6 files:  -config/app-config.yaml: Combined Production and development configurations  - config/database-config.json: Created separate profiles for each environment  - scripts/deploy.sh: Added multi-environment-based configuration  - scripts/monitor.js: Implemented environment covering both environments  - README.md: Combined feature lists and updated documentation
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | 684814f Add Images folder with checkpoint1.png
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
