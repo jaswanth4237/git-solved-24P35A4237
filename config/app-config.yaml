@@ -12,14 +12,11 @@ server:
 logging:
   level: INFO
   format: json
-  output: /var/log/app.log
   
-database:
-  host: prod-db.example.com
-  port: 5432
-  name: devops_prod
+
   
-features:
-  auto_scaling: true
-  load_balancer: enabled
-  backup_enabled: true
+development:
+  mock_external_apis: true
+  debug_mode: true
+  cors_enabled: true
+
